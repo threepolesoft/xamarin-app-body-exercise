@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Body_Exercise.MainPage">
+
+    <StackLayout>
+        
+            <Image 
+                Source="banner.jpg"
+                HeightRequest="250"
+                Margin="-10, 0, 0 ,0"
+                Aspect="AspectFill"
+               />
+
+
+        <Label Text="Start Exercise now" FontSize="Title" Padding="30,10,30,10"/>
+
+        <Button
+            Text="Excersice One"
+            WidthRequest="100"
+            HeightRequest="60"
+            Margin="20, 0, 20, 0"
+            BackgroundColor="Bisque"
+            Clicked="btn_ex_one"
+            />
+
+        <Button
+            Text="Excersice Two"
+            WidthRequest="100"
+            HeightRequest="60"
+            Margin="20, 0, 20, 0"
+            BackgroundColor="Bisque"
+            Clicked="btn_ex_two"
+            />
+
+        <Button
+            Text="Excersice Three"
+            WidthRequest="100"
+            HeightRequest="60"
+            Margin="20, 0, 20, 0"
+            BackgroundColor="Bisque"
+            Clicked="btn_ex_three"
+            />
+        <Button
+            Text="Excersice Four"
+            WidthRequest="100"
+            HeightRequest="60"
+            Margin="20, 0, 20, 0"
+            BackgroundColor="Bisque"
+            Clicked="btn_ex_four"
+            />
+
+    </StackLayout>
+    
+    
+
+</ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Body_Exercise.ex_one">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Image 
+                x:Name="ex_ani"
+                Source="banner.jpg"
+                IsAnimationPlaying="False"
+                HeightRequest="250"
+                Margin="-15, 0, 0, 0"
+                Aspect="AspectFit"
+               />
+
+            <Button
+                x:Name="btn_ex_st"
+                Text="Start"
+                CornerRadius="5"
+                WidthRequest="100"
+                HeightRequest="60"
+                Margin="20, 0, 20, 0"
+                BackgroundColor="Bisque"
+                Clicked="btn_ex_start"
+            />
+
+            <Button
+                Text="Stop"
+                CornerRadius="5"
+                WidthRequest="100"
+                HeightRequest="60"
+                Margin="20, 0, 20, 0"
+                BackgroundColor="Bisque"
+                Clicked="btn_ex_stop"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
